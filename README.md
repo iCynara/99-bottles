@@ -1,23 +1,16 @@
 # 99 Bottles
 
-## Installing Ruby
+## Learning notes from Sandi Metz's 99 bottle book
 
-### Windows
+Thing I have learned so far: 
 
-There's an installer, it's easy.
-http://rubyinstaller.org/
+Value/Cost
 
-### Mac
+Value: Ask domain questions 
+Cost:  Ask the following three questions: 
+- How difficult was this to write?   
+- How hard is it to understand?
+- How expensive will it be to change? (Which also take how hard to understand in consideration)
 
-Newer macs ship with a usable version of Ruby.
+DRY has cost.  I think we should understand why we doing things (value/cost), instand of just follow a convention. 
 
-Try `ruby -v` in a terminal window, and if it's 1.9.x or 2.x you're fine.
-
-http://www.railstutorial.org/book/beginning#sec-install_ruby
-http://tutorials.jumpstartlab.com/topics/environment/environment.html
-http://docs.railsbridge.org/installfest/macintosh
-
-### Linux
-
-Ubuntu: http://docs.railsbridge.org/installfest/linux
-https://www.ruby-lang.org/en/installation/
