@@ -1,7 +1,3 @@
-require 'rubygems'
-require 'bundler/setup'
-require "active_support/inflector"
-
 class Bottles
 
   def song
@@ -55,6 +51,6 @@ Take it down and pass it around, #{bottles(0)} of beer on the wall.
 #{first_sentence(0)}
 Go to the store and buy some more, 99 bottles of beer on the wall.
     VERSE
-    result.camelize
+    result.capitalize
   end
 end
